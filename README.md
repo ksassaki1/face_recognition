@@ -72,8 +72,6 @@ Abaixo está uma imagem ilustrativa demonstrando o reconhecimento facial:
 ### Imagem Exemplo Reconhecida
 ![Exemplo Reconhecimento Facial](recognized.jpg)
 
-**Nota**: Use suas próprias imagens para testar o sistema, garantindo um cadastro prévio das pessoas.
-
 ---
 
 ## 🚀 **Próximos Passos**
