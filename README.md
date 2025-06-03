@@ -16,21 +16,21 @@ jupyter lab      # or: jupyter notebook
 
 
 ###############################################################################
-# Folder layout (for batch enrolment)  ← informativo, **não** são comandos!
+# Folder layout (for batch enrolment)          ← informativo, **não** são comandos
 ###############################################################################
 # .
-# ├─ dataset_faces/
-# │  ├─ Ana/
-# │  │  ├─ ana1.jpg
-# │  │  └─ ana2.jpg
-# │  └─ Carlos/
-# │     ├─ carlos1.png
-# │     └─ carlos2.jpg
-# ├─ face_registration_recognition.ipynb
-# ├─ environment.yml
-# └─ README.md
+# |-- dataset_faces/
+# |   |-- Ana/
+# |   |   |-- ana1.jpg
+# |   |   `-- ana2.jpg
+# |   `-- Carlos/
+# |       |-- carlos1.png
+# |       `-- carlos2.jpg
+# |-- face_registration_recognition.ipynb
+# |-- environment.yml
+# `-- README.md
 #
-# (Put images in dataset_faces/<PersonName>/; the folder name becomes the label.)
+# (Put images in dataset_faces/<PersonName>/ ; the folder name becomes the label.)
 
 ###############################################################################
 # Main notebook sections
