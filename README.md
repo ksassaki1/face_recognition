@@ -1,6 +1,5 @@
-###############################################################################
 # Quick Start
-###############################################################################
+
 
 # 1 ▸ Clone the repository
 git clone https://github.com/ksassaki1/face_recognition.git
@@ -14,9 +13,8 @@ conda activate facerec
 jupyter lab      # or: jupyter notebook
 
 
-###############################################################################
 # Folder layout (for batch enrolment)        ← informativo, NÃO são comandos
-###############################################################################
+
 
 .
 ├── dataset_faces/
@@ -33,9 +31,9 @@ jupyter lab      # or: jupyter notebook
 # Put images in dataset_faces/<PersonName>/ ; the folder name becomes the label.
 
 
-###############################################################################
+
 # Main notebook sections
-###############################################################################
+
 
 # 3 ▸ Batch enrolment        – scans dataset_faces/** and updates encodings.pickle
 # 4 ▸ Single-photo enrolment – adds one image without losing existing data
@@ -43,18 +41,18 @@ jupyter lab      # or: jupyter notebook
 # 6 ▸ Real-time recognition  – webcam preview (press "q" to quit)
 
 
-###############################################################################
+
 # Adding more faces later
-###############################################################################
+
 
 # 1. conda activate facerec
 # 2. Run section 4 (or section 3 if you added new folders)
 # 3. encodings.pickle grows cumulatively — nothing is overwritten
 
 
-###############################################################################
+
 # License
-###############################################################################
+
 
 # MIT License — see the LICENSE file
 
