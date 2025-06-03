@@ -16,7 +16,7 @@ jupyter lab      # or: jupyter notebook
 # Folder layout (for batch enrolment)        ← informativo, NÃO são comandos
 
 
-.
+
 ├── dataset_faces/
 │   ├── Ana/
 │   │   ├── ana1.jpg
@@ -35,10 +35,10 @@ jupyter lab      # or: jupyter notebook
 # Main notebook sections
 
 
-# 3 ▸ Batch enrolment        – scans dataset_faces/** and updates encodings.pickle
-# 4 ▸ Single-photo enrolment – adds one image without losing existing data
-# 5 ▸ Recognition on image   – detects, labels, and writes recognized*.jpg
-# 6 ▸ Real-time recognition  – webcam preview (press "q" to quit)
+3 ▸ Batch enrolment        – scans dataset_faces/** and updates encodings.pickle
+4 ▸ Single-photo enrolment – adds one image without losing existing data
+5 ▸ Recognition on image   – detects, labels, and writes recognized*.jpg
+6 ▸ Real-time recognition  – webcam preview (press "q" to quit)
 
 
 
