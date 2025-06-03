@@ -15,8 +15,8 @@
 # ───────────
 #
 # 1 ▸ Clone the repository
-git clone https://github.com/<your-user>/face-registration-recognition.git
-cd face-registration-recognition
+git clone https://github.com/ksassaki1/face_recognition
+cd face_recognition
 #
 # 2 ▸ Create the Conda environment
 conda env create -f environment.yml
