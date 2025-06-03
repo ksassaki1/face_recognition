@@ -1,30 +1,58 @@
-# Face Registration & Recognition Notebook
+# Face Registration & Recognition — Jupyter Notebook
+#
+# Notebook : face_registration_recognition.ipynb
+#
+# ▸ Face enrolment  – extracts 128-D embeddings and saves them to encodings.pickle  
+# ▸ Face recognition – labels faces in photos or live webcam stream  
+# ▸ Output versioning – writes recognized.jpg, recognized_1.jpg, recognized_2.jpg…
+#
+# Entire Conda environment specified in environment.yml  (env name: facerec)
+#──────────────────────────────────────────────────────────────────────────────
 
-Small, self-contained Jupyter notebook that teaches you to **register faces and recognise them** with the popular [`face_recognition`](https://github.com/ageitgey/face_recognition) Python library.  
-Everything lives in one file – `face_registration_recognition.ipynb`.
+# QUICK START
+#────────────
 
-* Stores 128-D encodings for each person in a single `encodings.pickle`.  
-* Lets you enrol people **from a folder tree** *or* **one photo at a time**.  
-* Identifies faces in a still image (Section 4) or live webcam feed (Section 5).  
-
----
-
-## Quick Preview
-
-| Action | Screenshot |
-|--------|------------|
-| Enrolment from folders (`dataset_faces/PersonName/*.jpg`) | *add your own image* |
-| Recognition result (`recognized.jpg`) | *add your own image* |
-
-*(Drop a couple of images in `docs/` and update the links above if you want a real preview.)*
-
----
-
-## Quick Start
-
-### 1. Clone the repo
-
-```bash
+# 1 · Clone the repository
 git clone https://github.com/ksassaki1/face_recognition
 cd face-registration-recognition
 
+# 2 · Create the Conda environment
+conda env create -f environment.yml
+conda activate facerec
+
+# 3 · Launch the notebook
+jupyter lab      # or: jupyter notebook
+
+# 4 · Recommended folder layout (for batch enrolment)
+#
+# .
+# ├── dataset_faces/
+# │   ├── Ana/
+# │   │   ├── ana1.jpg
+# │   │   └── ana2.jpg
+# │   └── Carlos/
+# │       ├── carlos1.png
+# │       └── carlos2.jpg
+# ├── face_registration_recognition.ipynb
+# ├── environment.yml
+# └── README.md
+
+#──────────────────────────────────────────────────────────────────────────────
+# MAIN NOTEBOOK SECTIONS
+#──────────────────────────────────────────────────────────────────────────────
+# 3 · Batch enrolment            – scans dataset_faces/** and updates encodings.pickle
+# 4 · Single-photo enrolment     – adds one image without losing existing data
+# 5 · Recognition on image       – detects, labels, and writes recognized*.jpg
+# 6 · Real-time recognition      – webcam (press “q” to quit)
+
+#──────────────────────────────────────────────────────────────────────────────
+# HOW TO ADD MORE FACES LATER
+#──────────────────────────────────────────────────────────────────────────────
+# 1. conda activate facerec
+# 2. Run section 4 (or 3, if you added new folders)
+# 3. encodings.pickle grows cumulatively — nothing is lost
+
+#──────────────────────────────────────────────────────────────────────────────
+# LICENSE
+#──────────────────────────────────────────────────────────────────────────────
+# MIT License — see the LICENSE file
