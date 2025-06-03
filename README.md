@@ -27,7 +27,8 @@ conda activate facerec
 jupyter lab      # or: jupyter notebook
 
 
-# FOLDER LAYOUT EXAMPLE  (for batch enrolment)
+# ─────────────────────────────────────────────
+# Folder layout (for batch enrolment)
 # ─────────────────────────────────────────────
 # .
 # ├── dataset_faces/
@@ -41,8 +42,6 @@ jupyter lab      # or: jupyter notebook
 # ├── environment.yml
 # └── README.md
 #
-# If you keep photos under dataset_faces/<PersonName>/, the notebook
-# automatically uses the folder name as the label.
 
 
 # MAIN NOTEBOOK SECTIONS
