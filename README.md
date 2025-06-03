@@ -9,7 +9,6 @@
 # • Output versioning  – writes recognized.jpg, recognized_1.jpg, recognized_2.jpg …
 #
 # Full Conda environment specified in environment.yml  (env name: facerec)
-#
 # ───────────────────────────────────────────────────────────────────────────────
 #
 # QUICK START
@@ -24,7 +23,7 @@ conda env create -f environment.yml
 conda activate facerec
 #
 # 3 ▸ Launch the notebook
-jupyter lab        # or: jupyter notebook
+jupyter lab      # or: jupyter notebook
 #
 #
 # FOLDER LAYOUT EXAMPLE  (for batch enrolment)
@@ -50,7 +49,7 @@ jupyter lab        # or: jupyter notebook
 # 3 ▸ Batch enrolment            – scans dataset_faces/** and updates encodings.pickle
 # 4 ▸ Single-photo enrolment     – adds one image without losing existing data
 # 5 ▸ Recognition on image       – detects, labels, and writes recognized*.jpg
-# 6 ▸ Real-time recognition      – webcam preview  (press “q” to quit)
+# 6 ▸ Real-time recognition      – webcam preview (press “q” to quit)
 #
 #
 # ADDING MORE FACES LATER
@@ -65,5 +64,6 @@ jupyter lab        # or: jupyter notebook
 # MIT License — see the LICENSE file
 #
 # ───────────────────────────────────────────────────────────────────────────────
+
 
 
