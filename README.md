@@ -1,23 +1,19 @@
-###############################################################################
 # 🧑‍💻 Projeto de Cadastro e Reconhecimento Facial
-###############################################################################
 
 Este projeto utiliza técnicas avançadas de **visão computacional** e **processamento de imagens** para cadastrar rostos e realizar reconhecimento facial. As features faciais são extraídas usando embeddings de 128 dimensões pela biblioteca **dlib**, permitindo identificação precisa tanto em fotos estáticas quanto por webcam em tempo real.
 
 ---
 
-###############################################################################
+
 # 🎯 Objetivo
-###############################################################################
 
 - Desenvolver uma rotina para cadastro facial (batch e individual) usando embeddings faciais.
 - Realizar reconhecimento facial preciso e em tempo real em imagens e vídeo por webcam.
 
 ---
 
-###############################################################################
 # 🛠 Tecnologias e Ferramentas Usadas
-###############################################################################
+
 
 - **Linguagem:** Python
 - **Bibliotecas:**
@@ -29,9 +25,8 @@ Este projeto utiliza técnicas avançadas de **visão computacional** e **proces
 
 ---
 
-###############################################################################
 # 📂 Estrutura do Projeto (para cadastro em lote) ← informativo, NÃO são comandos
-###############################################################################
+
 
 .
 ├── dataset_faces/
@@ -49,9 +44,9 @@ Este projeto utiliza técnicas avançadas de **visão computacional** e **proces
 
 ---
 
-###############################################################################
+
 # 🚀 Quick Start
-###############################################################################
+
 
 # 1 ▸ Clone o repositório
 git clone https://github.com/ksassaki1/face_recognition.git
@@ -66,9 +61,9 @@ jupyter lab      # ou: jupyter notebook
 
 ---
 
-###############################################################################
+
 # 📚 Seções Principais do Notebook
-###############################################################################
+
 
 # 3 ▸ Batch enrolment         – cadastra rostos em lote, atualiza encodings.pickle
 # 4 ▸ Single-photo enrolment  – adiciona uma imagem sem sobrescrever dados existentes
@@ -77,9 +72,9 @@ jupyter lab      # ou: jupyter notebook
 
 ---
 
-###############################################################################
+
 # ♻️ Adicionando Novos Rostos Depois
-###############################################################################
+
 
 # 1. conda activate facerec
 # 2. Execute seção 4 (ou seção 3 caso adicione novas pastas)
@@ -87,8 +82,8 @@ jupyter lab      # ou: jupyter notebook
 
 ---
 
-###############################################################################
+
 # 📄 Licença
-###############################################################################
+
 
 # MIT License — consulte o arquivo LICENSE
