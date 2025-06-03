@@ -3,11 +3,11 @@
 # ───────────────────────────────────────────────────────────────────────────────
 #
 # Notebook : face_registration_recognition.ipynb
-#
-# • Face enrolment     – extracts 128-D embeddings and saves them to encodings.pickle
-# • Face recognition   – labels faces in photos or a live webcam stream
-# • Output versioning  – writes recognized.jpg, recognized_1.jpg, recognized_2.jpg …
-#
+
+• Face enrolment     – extracts 128-D embeddings and saves them to encodings.pickle
+• Face recognition   – labels faces in photos or a live webcam stream
+• Output versioning  – writes recognized.jpg, recognized_1.jpg, recognized_2.jpg …
+
 # Full Conda environment specified in environment.yml  (env name: facerec)
 # ───────────────────────────────────────────────────────────────────────────────
 #
