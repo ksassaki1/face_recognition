@@ -42,7 +42,7 @@ jupyter lab      # or: jupyter notebook
 # ├── environment.yml
 # └── README.md
 #
-
+# (Put images in dataset_faces/<PersonName>/; the folder name becomes the label.)
 
 # MAIN NOTEBOOK SECTIONS
  ──────────────────────
