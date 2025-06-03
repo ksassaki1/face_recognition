@@ -35,12 +35,6 @@ Este projeto utiliza técnicas avançadas de **processamento de imagens** e **vi
 ```
 .
 ├── dataset_faces/
-│   ├── Ana/
-│   │   ├── ana1.jpg
-│   │   └── ana2.jpg
-│   └── Carlos/
-│       ├── carlos1.png
-│       └── carlos2.jpg
 ├── face_registration_recognition.ipynb
 ├── environment.yml
 └── README.md
