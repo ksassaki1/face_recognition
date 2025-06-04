@@ -67,7 +67,7 @@ Durante os testes, o sistema demonstrou capacidade de cadastrar múltiplos indiv
 ---
 
 ## 📷 **Exemplo de reconhecimento facial**
-Abaixo está uma imagem ilustrativa demonstrando o reconhecimento facial:
+Abaixo estão algumas imagens ilustrativas demonstrando o reconhecimento facial:
 
 ### Imagens Exemplos Reconhecidas
 ![Exemplo Reconhecimento Facial](recognized.jpg)
