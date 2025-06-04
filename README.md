@@ -293,6 +293,4 @@ facerecognition/
 Guilherme Koiti Tanaka Sassaki
 [LinkedIn](https://www.linkedin.com/in/guilherme-sassaki-10b81ba7/)
 
-```
-```
 
