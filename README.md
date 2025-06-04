@@ -8,8 +8,7 @@ Este projeto utiliza técnicas avançadas de **processamento de imagens** e **vi
   3. Script em Jupyter Notebook (`facerec_api.ipynb`).  
 
 - **Reconhecimento facial** em:
-  - Imagens estáticas (upload via navegador, curl ou notebook).  
-  - Fluxo em tempo real (Webcam, notebook).  
+  - Imagens estáticas (upload via navegador, curl ou notebook).   
 
 Tudo está containerizado em **Docker**, facilitando a implantação em qualquer máquina.
 
