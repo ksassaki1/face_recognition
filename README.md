@@ -63,14 +63,14 @@ Tudo está containerizado em **Docker**, facilitando a implantação em qualquer
     - `unknown_teste.jpg`
 
 - **`requirements.txt`**  
-  ```txt
+  ```
   fastapi
   uvicorn[standard]
   face_recognition
   python-multipart
   pillow
   numpy
-```
+  ```
 
 * **`Dockerfile`**:
 
